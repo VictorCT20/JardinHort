@@ -16,4 +16,9 @@ public class Controlador {
         return "Ar";
     }
     
+    @GetMapping("/about") 
+    public String About() {
+        return "About";
+    }
+    
 }
